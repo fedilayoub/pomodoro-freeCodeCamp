@@ -1,38 +1,185 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  width: 100vw;
+  background:#1b1b33;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.clock-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 30px;
+  width: 80vw;
+  background:  rgba( 255, 255, 255, 0.35 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 9.5px );
+  -webkit-backdrop-filter: blur( 9.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  
+}
+ #freeCodeCamp{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:#1b1b33;
+  color: #eee;
+  font-family: 'Roboto Mono',monospace;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.set-timer{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+}
+.clock h1 {
+  background-color: #fbfbfb;
+  color: #333333;
+  font-size: 1.6rem;
+  font-weight: normal;
+  margin: 0;
+  padding: 60px 30px 15px 30px;
+  text-align: center;
+  transition: color .2s ease-in-out;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.running-clock {
+  color: #FBFBFBFB;
+  margin: 0 auto;
+  max-width: 380px;
+  padding: 15px 0 0 0;
+  text-align: center;
+  position: relative;
+  width: 80%;
+ 
+}
+
+  .running-clock h2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+  
   }
-  to {
-    transform: rotate(360deg);
+
+
+
+.time-input {
+  color: #fbfbfb;
+  text-align: center;
+  width: 50%;
+
+
+}
+.time-input h3 {
+    font-size: 1.2rem;
+    margin: 0;
+   
   }
+  
+  .time-input span {  
+    font-size: 3rem;
+  }
+
+  .clock-container #time-left{
+    font-size: 90px;
+  }
+  
+  #session{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    float: left;
+    margin: 1em;
+    padding: 0;
+
+  }
+ 
+  #break{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    margin: 1em;
+    padding: 0;
+    width: 1;
+
+  }
+ 
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .buttons  button {
+    background-color: transparent;
+    background-size: 60% 60%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: 2px solid #fbfbfb;
+    border-radius: 50%;
+    color: transparent;
+    display: inline-block;
+    height: 48px;
+    margin: 5px;
+    overflow: hidden;
+    width: 48px;
+  }
+
+  .buttons button.play {
+    background-image: url('./assets/play.png');
+    
+  }
+
+  .buttons button.pause {
+    background-image: url('./assets/pause.png');
+  }
+
+  .buttons button.reset {
+    background-image: url('./assets/reset.png');
+  }
+
+  .buttons button.increase {
+    background-image: url('./assets/increase.png');
+  }
+
+  .buttons button.decrease {
+    background-image: url('./assets/decrease.png');
+  }
+ 
+@media screen and (max-width: 470px){
+  body{
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  #freeCodeCamp{
+    font-size: 20px;
+  }
+  .clock-container #time-left{
+    font-size: 40px;
+  }
+  
 }
