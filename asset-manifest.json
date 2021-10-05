@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/pomodoro-freeCodeCamp/static/css/main.2431306d.chunk.css",
+    "main.js": "/pomodoro-freeCodeCamp/static/js/main.55a77c6f.chunk.js",
+    "main.js.map": "/pomodoro-freeCodeCamp/static/js/main.55a77c6f.chunk.js.map",
+    "runtime-main.js": "/pomodoro-freeCodeCamp/static/js/runtime-main.b17b87cc.js",
+    "runtime-main.js.map": "/pomodoro-freeCodeCamp/static/js/runtime-main.b17b87cc.js.map",
+    "static/js/2.63ba9184.chunk.js": "/pomodoro-freeCodeCamp/static/js/2.63ba9184.chunk.js",
+    "static/js/2.63ba9184.chunk.js.map": "/pomodoro-freeCodeCamp/static/js/2.63ba9184.chunk.js.map",
+    "index.html": "/pomodoro-freeCodeCamp/index.html",
+    "static/css/main.2431306d.chunk.css.map": "/pomodoro-freeCodeCamp/static/css/main.2431306d.chunk.css.map",
+    "static/js/2.63ba9184.chunk.js.LICENSE.txt": "/pomodoro-freeCodeCamp/static/js/2.63ba9184.chunk.js.LICENSE.txt",
+    "static/media/pause.d76b1475.mp3": "/pomodoro-freeCodeCamp/static/media/pause.d76b1475.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b17b87cc.js",
+    "static/js/2.63ba9184.chunk.js",
+    "static/css/main.2431306d.chunk.css",
+    "static/js/main.55a77c6f.chunk.js"
+  ]
+}
