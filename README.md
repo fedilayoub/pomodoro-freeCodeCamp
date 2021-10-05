@@ -59,8 +59,8 @@ The goal of this exercice is to create a pomodoro[(freeCodeCamp 25+5 clock)](htt
 **User Story #28**: The audio element with id of beep must stop playing and be rewound to the beginning when the element with the id of reset is clicked.  
   
 ## Preview 
-  ![mobile_version]()  
-  ![desktop_version]()  
+  ![mobile_version](https://github.com/fedilayoub/pomodoro-freeCodeCamp/blob/master/src/assets/mobile_preview.jpg)  
+  ![desktop_version](https://github.com/fedilayoub/pomodoro-freeCodeCamp/blob/master/src/assets/preview.png)  
     
 ## Live Demo 
 Visit [FreeCodeCamp 25+5 clock](https://fedilayoub.github.io/pomodoro-freeCodeCamp)  
