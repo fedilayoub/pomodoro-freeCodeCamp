@@ -189,7 +189,7 @@ class App extends Component {
       <div className={`App ${ this.state.cycle }`}>
         <main id="clock" className="clock">
         <h1 id="freeCodeCamp">freeCodeCamp 25+5 clock</h1>
-          <div class="clock-container">
+          <div className="clock-container">
             <Timer
               handlePlay={ this.handlePlay }
               handleReset={ this.handleReset }
